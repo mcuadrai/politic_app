@@ -16,13 +16,13 @@ class QuizPoll {
       },
       {
         'description':
-        'El Estado debe limitar la entrada de productos de otros países para favorecer a los productores nacionales.',
+        'El Estado debe limitar la entrada de productos de otros países para favorecer a los productores nacionales',
         'ideology_id': 2,
         'totalitarian_point': 5
       },
       {
         'description':
-        'El Estado no debe limitar el comercio internacional. Éste debe ser libre y los aranceles deben reducirse hasta eliminarse.',
+        'El Estado no debe limitar el comercio internacional. Éste debe ser libre y los aranceles deben reducirse hasta eliminarse',
         'ideology_id': 4,
         'totalitarian_point': 0
       }
@@ -30,19 +30,19 @@ class QuizPoll {
     [
       {
         'description':
-        'Las cuotas obligatorias son el mejor instrumento para remediar las situaciones de discriminación histórica.',
+        'Las cuotas obligatorias son el mejor instrumento para remediar las situaciones de discriminación histórica',
         'ideology_id': 3,
         'totalitarian_point': 10
       },
       {
         'description':
-            'Las ayudas para la integración o los beneficios fiscales a los grupos menos representados son el mejor instrumento para paliar la discriminación.',
+            'Las ayudas para la integración o los beneficios fiscales a los grupos menos representados son el mejor instrumento para paliar la discriminación',
         'ideology_id': 3,
         'totalitarian_point': 3
       },
       {
         'description':
-            'Cualquier tipo de imposición o beneficio basado en criterios de sexo, raza o grupo social, viola el principio de igualdad ante la ley, y no debe ser impuesto por el Estado.',
+            'Cualquier tipo de imposición o beneficio basado en criterios de sexo, raza o grupo social, viola el principio de igualdad ante la ley, y no debe ser impuesto por el Estado',
         'ideology_id': 4,
         'totalitarian_point': 0
       }
@@ -56,7 +56,7 @@ class QuizPoll {
       },
       {
         'description':
-        'Estado deberá gestionar servicios de educación y salud gratuita',
+        'Estado deberá gestionar servicios de educación y salud gratuita para los más necesitados o para quien lo solicite',
         'ideology_id': 2,
         'totalitarian_point': 5
       },
@@ -68,7 +68,7 @@ class QuizPoll {
       },
       {
         'description':
-        'Estado sin servicio de educación ni de salud',
+        'Estado sin servicio público de educación ni de salud',
         'ideology_id': 4,
         'totalitarian_point': 1
       }
@@ -87,7 +87,7 @@ class QuizPoll {
       },
       {
         'description':
-            'Estado debe tener sólo el Presidente y embajadores. ',
+            'Estado debe tener sólo el Presidente y embajadores',
         'ideology_id': 4,
         'totalitarian_point': 1
       }
@@ -101,7 +101,7 @@ class QuizPoll {
       },
       {
         'description':
-        'El Estado debe imponer entre un 12% y 20% de impuesto a las empresas para solventar las promesas de los políticos ',
+        'El Estado debe imponer entre un 12% y 20% de impuesto a las empresas para solventar el gasto social',
         'ideology_id': 2,
         'totalitarian_point': 5
       },
@@ -126,13 +126,13 @@ class QuizPoll {
       },
       {
         'description':
-        'Estado exige contribuciones obligatorias para el sistema de jubilación y de salud privados',
+        'Estado exige contribuciones obligatorias para el sistema de jubilación privados',
         'ideology_id': 3,
         'totalitarian_point': 5
       },
       {
         'description':
-        'Las pensiones son un asunto de ahorro y planificación individual.',
+        'Las pensiones son un asunto de ahorro y planificación individual',
         'ideology_id': 4,
         'totalitarian_point': 0
       }
@@ -279,8 +279,6 @@ class ResultPoll {
        }
        return colore;
   }
-
-
 
 
 

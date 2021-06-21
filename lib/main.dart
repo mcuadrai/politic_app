@@ -1,18 +1,14 @@
 import 'package:flutter/material.dart';
 import 'database.dart';
-import 'measure.dart';
-import 'quiz_brain.dart';
+import 'quiz_poll.dart';
 
 QuizPoll quizPoll = QuizPoll();
 List<Map<String, Object>> currentChoices = quizPoll.choicesOfPoll.elementAt(0);
 
 ResultPoll resultPoll = ResultPoll(quizPoll.getAllChoices());
 
-Future<List<Measure>> fetchChoicesByPollFromDatabase(int id) async {
-  var dbHelper = PoliticDatabase();
-  Future<List<Measure>> choices = dbHelper.choicesByTitleId(id);
-  return choices;
-}
+
+
 
 class MyDynamicListView extends StatefulWidget {
   @override
@@ -40,7 +36,9 @@ class _MyDynamicListViewState extends State<MyDynamicListView> {
                       ),
         )),
         ElevatedButton(
-          onPressed: () {},
+          onPressed: () {
+
+          },
           child: const Text('Inicio'),
         ),
       ],
@@ -48,9 +46,11 @@ class _MyDynamicListViewState extends State<MyDynamicListView> {
   }
 }
 
+
 main() {
   runApp(Quizzler());
 }
+
 
 class Quizzler extends StatelessWidget {
   @override
