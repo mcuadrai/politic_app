@@ -10,7 +10,7 @@ class QuizPoll {
     [
       {
         'description':
-        'Estado deberá aplicar fijación de precios para proteger al consumidor y aumentar impuestos para entregar más beneficios a los ciudadanos',
+            'Estado deberá aplicar fijación de precios cuando sea necesario para proteger al consumidor',
         'ideology_id': 1,
         'totalitarian_point': 10
       },
