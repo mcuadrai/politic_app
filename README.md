@@ -1,10 +1,13 @@
 # Political Test
-  It is a mobile application to know the political ideologies of who takes the test.
+  This political test is for those who want to find out what political ideologies it is related to.
 
 ## How does it work
 
-  There are only six questions with their respective alternatives. The alternatives are defined according to the type of ideology, be it communist, socialist, minarchist, and anarchocapitalist. The final result is the percentage according to political ideology.
-  The alternatives that are presented in each question have different degrees in which the State can control or not. The more control the State has, the closer it is to communism, and the opposite is, the less influence of the State, then there is more individual freedom and there will be an approach to anarchocapitalism.
+  There are only six topics with their respective choices. The choices are defined according to the type of ideology, be it communist, socialist, minarchist, and anarchocapitalist. The final result is the percentage according to political ideology.
+  The choices are evaluated depending on the degree the control of State.
+  The maximum control of State is the comunism. The minimum control is the anarchocapitalism.
+  More control of State is more totalitarian.
+
 
 ## Download
 
@@ -12,7 +15,10 @@
 
 ## Donation
 
-  Thank you for your donation in [PayPal](https://www.paypal.com/donate?business=TJ8HUT7UGECN6&no_recurring=0&item_name=politic+test&currency_code=USD)
+  You can give a value the cup of coffe or what you wish for donation to improve this app and do more
+  political applications [poldea.org](http://www.poldea.org).
+  Thank you ver much for your donation in [PayPal](https://www.paypal.com/donate?business=TJ8HUT7UGECN6&no_recurring=0&item_name=politic+test&currency_code=USD)
+
 
 <a>
 <form action="https://www.paypal.com/donate" method="post" target="_top">
