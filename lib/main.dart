@@ -8,7 +8,6 @@ List<Map<String, Object>> currentChoices = quizPoll.choicesOfPoll.elementAt(0);
 
 ResultPoll resultPoll = ResultPoll(quizPoll.getAllChoices());
 
-
 main() {
   runApp(MaterialApp(
     // Start the application with the named path.
@@ -34,20 +33,27 @@ class WelcomePage extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Column(
+            //crossAxisAlignment: CrossAxisAlignment.center,
+            //mainAxisSize: MainAxisSize.max,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text(
-                  'Este test político es para quién lo haga se de cuenta a que ideologías políticas es afin.',
-                  style: TextStyle(fontSize: 20.0),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text(
-                  'Son 6 temas y por cada tema deberá responder una sola alternativa. Escoja aquella con la que se identifica más.',
-                  style: TextStyle(fontSize: 20.0),
-                ),
+              Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      'Este test político es para quién lo haga se de cuenta a que ideologías políticas es afin.',
+                      style: TextStyle(fontSize: 20.0),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      'Son 6 temas y por cada tema deberá responder una sola alternativa. Escoja aquella con la que se identifica más.',
+                      style: TextStyle(fontSize: 20.0),
+                    ),
+                  ),
+                ],
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
@@ -56,6 +62,17 @@ class WelcomePage extends StatelessWidget {
                       Navigator.pushNamed(context, '/quiz');
                     },
                     child: Text('Siguiente', style: TextStyle(fontSize: 20.0))),
+              ),
+              Column(
+                children: [
+                  Align(
+                    alignment: Alignment.bottomCenter,
+                    child: Text(
+                      'Más información en https://github.com/mcuadrai/political_test',
+                      style: TextStyle(fontSize: 20.0),
+                    ),
+                  ),
+                ],
               ),
             ],
           ),
@@ -82,10 +99,12 @@ class Quizzler extends StatelessWidget {
     );
   }
 }
+
 class QuizPage extends StatefulWidget {
   @override
   _QuizPageState createState() => _QuizPageState();
 }
+
 class _QuizPageState extends State<QuizPage> {
   var dbHelper = PoliticDatabase();
 
@@ -121,7 +140,7 @@ class _QuizPageState extends State<QuizPage> {
           Expanded(
             child: Padding(
               padding: EdgeInsets.all(15.0),
-                child: Center(
+              child: Center(
                 child: ListView(
                   padding: const EdgeInsets.symmetric(vertical: 8),
                   children: [
@@ -134,7 +153,7 @@ class _QuizPageState extends State<QuizPage> {
                             currentChoices[index]['description'].toString(),
                             style: TextStyle(
                               color: Colors.black,
-                              //fontSize: 19.0,
+                              fontSize: 17.0,
                             ),
                           ),
                           onPressed: () {
